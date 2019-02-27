@@ -37,7 +37,7 @@ fs.readdir(path, function(err, files){
           autoClose: true //autoClose属性为true（默认行为）时，当发生错误或文件读取结束时会自动关闭文件描述符
         }*/
         // 创建一个可以写入的流，即 将要写入到文件的路径 output.txt
-        writeStream = fs.createWriteStream('aaa/' + oldPath);
+        writeStream = fs.createWriteStream('new_copy/' + filename);
         // https://blog.csdn.net/Vieri_32/article/details/48376547
         // https://nodeschool.io/zh-cn/
         // http://www.runoob.com/nodejs/nodejs-stream.html √

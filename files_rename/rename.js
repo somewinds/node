@@ -25,7 +25,7 @@ fs.readdir(path, function(err, files){
         readStream = fs.createReadStream(oldPath);
         console.log(readStream)
         // https://blog.csdn.net/Buddha_ITXiong/article/details/81199173
-        // createWriteStream() 有读取操作就有写入操作，改函数的作用就是对文件流进行写入
+        // createWriteStream() 有读取操作就有写入操作，该函数的作用就是对文件流进行写入
         /*
         @params: path指定文件的路径
         @params: options可选, 是一个JS对象， 可以指定一些选项如：
